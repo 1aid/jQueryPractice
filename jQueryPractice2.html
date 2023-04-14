@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Ratings</title>
+  <link rel="stylesheet" href="jQueryPractice2.css">
+</head>
+<body>
+  <h1>Movie Ratings</h1>
+  <form id="movie-form">
+    <input type="text" id="title-input" placeholder="Enter Title" required>
+    <input type="number" id="rating-input" placeholder="Enter Rating" min="1" max="10" required>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="movie-list">
+    <h2>Movie List</h2>
+    <ul id="movies"></ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="jQueryPractice2.js"></script>
+</body>
+</html>
